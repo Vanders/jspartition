@@ -12,8 +12,8 @@ A jQuery Widget for creating disk partitions, or other variable ranges. This plu
 
 # Credits
 
+Copyright 2014 Kristian Van Der Vliet (http://github.com/Vanders/)  
 Copyright 2011 Andrea Stagi (http://github.com/4ndreaSt4gi/)
-Copyright 2014 Kristian Van Der Vliet (http://github.com/Vanders/)
 
 # Licensing
 
