@@ -1,0 +1,27 @@
+<html>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+  <script src="file:///home/kristian/jsPartition/partition.js"></script>
+
+  <body>
+    <div style="margin-top:10px;"/>
+      <div id="partition" style="height: 300px ; width: 100%;" >
+      </div>
+  </body>
+
+  <script type="application/javascript">
+    $(document).ready(function(){
+            
+        $('#partition').partition({
+            colors: [ "lightblue", "lightgrey" ],
+            abs: {value: 500, units: "GB"},
+            
+            onClear: function() {
+              return confirm("Are you sure?");   
+            }
+        });
+
+    });
+  </script>
+</html>
